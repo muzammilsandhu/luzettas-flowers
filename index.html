@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luzettas Flowers & Gifts</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="images/favicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Markazi+Text:wght@400;500;600;700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=News+Cycle:wght@400;700&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Code+Pro:wght@300&family=Style+Script&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Markazi+Text:wght@400;500;600;700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=News+Cycle:wght@400;700&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Code+Pro:wght@300&family=Style+Script&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Markazi+Text:wght@400;500;600;700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=News+Cycle:wght@400;700&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Code+Pro:wght@300&family=Style+Script&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Lora:ital,wght@0,400..700;1,400..700&family=Markazi+Text:wght@400;500;600;700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=News+Cycle:wght@400;700&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Code+Pro:wght@300&family=Style+Script&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- 1 -->
+    <section>
+        <main class="w-100">
+            <nav class="d-flex justify-space-between align-center">
+                <img src="images/luzettas-logo.svg" alt="luzettas logo">
+                <ul id="ul-main" class="d-flex justify-space-between align-center w-100">
+                    <li><a class="font-sm font-semibold text-none text-capitalize letter-s1 color-primary-three transition"
+                            href="#">about</a></li>
+                    <li><a class="font-sm font-semibold text-none text-capitalize letter-s1 color-primary-three transition"
+                            href="#">flowers</a></li>
+                    <li><a class="font-sm font-semibold text-none text-capitalize letter-s1 color-primary-three transition"
+                            href="#">events</a></li>
+                    <li><a class="font-sm font-semibold text-none text-capitalize letter-s1 color-primary-three transition"
+                            href="#">FAQs</a>
+                    </li>
+                    <li><a class="font-sm font-semibold text-none text-capitalize letter-s1 color-primary-three transition"
+                            href="#">contact
+                            us</a></li>
+                </ul>
+                <div id="menu-container" class="d-none">
+                    <input type="checkbox" id="menu-icon" class="d-none">
+                    <label for="menu-icon" class="cursor-pointer">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </label>
+                    <ul class="d-none flex-column align-center pos-abs w-100 text-center">
+                        <li class="w-100"><a
+                                class="font-xlg font-semibold text-none text-capitalize color-primary-three letter-s1 transition"
+                                href="#">about
+                                us</a>
+                        </li>
+                        <li class="w-100"><a
+                                class="font-xlg font-semibold text-none text-capitalize color-primary-three letter-s1 transition"
+                                href="#">flowers</a>
+                        </li>
+                        <li class="w-100"><a
+                                class=" font-xlg font-semibold text-none text-capitalize color-primary-three letter-s1 transition"
+                                href="#">events</a>
+                        </li>
+                        <li class="w-100"><a
+                                class="font-xlg font-semibold text-none text-capitalize color-primary-three letter-s1 transition"
+                                href="#">FAQs</a>
+                        </li>
+                        <li class="w-100"><a
+                                class="font-xlg font-semibold text-none text-capitalize color-primary-three letter-s1 transition"
+                                href="#">contact
+                                us</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </main>
+    </section>
+
+    <!-- 2 -->
+    <section id="contact-section" class="bg-tertiary pos-rel">
+        <main class="d-flex justify-space-between align-center gap-10 w-100">
+            <div id="contact-container">
+                <h1 class="font-h1 font-regular color-bg-sec letter-s1 w-100">Your Destination for
+                    Custom Flower Arrangements,
+                    Home Decor, and Vintage Finds</h1>
+                <div id="contact-btn" class="d-flex justify-center align-center bg-accent w-100"><a
+                        class="font-semibold text-none text-capitalize color-secondary" href="#">contact
+                        luzetta’s</a></div>
+            </div>
+            <div id="contact-img-container" class="w-100"><img class="w-100 d-block" src="images/banner-flowers.jpg">
+            </div>
+        </main>
+    </section>
+
+    <!-- 3 -->
+    <section id="story-section">
+        <main class="w-100">
+            <div id="story-container" class="w-100">
+                <h2 class="font-h2 font-regular text-capitalize letter-s1 color-primary">our story</h2>
+                <p class="font-md color-primary w-100">Since 2008, my husband TJ and I have owned the business, raising
+                    our
+                    four children - Thomas, Zettie,
+                    Tristan, and Trent - along the way. With the help of our friends and family, we've carved out a
+                    special place in the heart of Malheur County. We're dedicated to providing you with unique,
+                    handcrafted gifts, crafting breathtaking floral arrangements, and providing the best service we can.
+                </p>
+            </div>
+        </main>
+    </section>
+
+    <!-- 4 -->
+    <section id="flowers-section">
+        <main class="w-100">
+            <div id="flowers-container" class="d-flex">
+
+                <div class="flowers-content w-100"><img class="w-100 d-block" src="images/flower-1.jpg"
+                        alt="custom arrangements flowers">
+                    <p
+                        class="font-secondary font-xlg font-light color-primary-two letter-s1 text-capitalize text-center">
+                        custom
+                        arrangements</p>
+                </div>
+
+                <div class="flowers-content w-100"><img class="w-100 d-block" src="images/flower-2.jpg"
+                        alt="holiday arrangements flowers">
+                    <p
+                        class="font-secondary font-xlg font-light color-primary-two letter-s1 text-capitalize text-center">
+                        holiday
+                        arrangements
+                    </p>
+                </div>
+
+                <div class="flowers-content w-100"><img class="w-100 d-block" src="images/flower-3.jpg"
+                        alt="holiday wreaths flowers">
+                    <p
+                        class="font-secondary font-xlg font-light color-primary-two letter-s1 text-capitalize text-center">
+                        holiday
+                        wreaths
+                    </p>
+                </div>
+            </div>
+            <div id="progress-container" class="w-100">
+                <div id="progress-bar"></div>
+            </div>
+            <a class="font-accent font-md color-primary text-center pos-rel text-none" href="#">
+                View all
+            </a>
+        </main>
+    </section>
+
+    <!-- 5 -->
+    <section id="values-section" class="bg-primary">
+        <main class="w-100">
+            <div id="values-main-container" class="d-flex justify-space-between align-center gap-10">
+                <div class="values-img-container w-100"><img class="w-100 d-block" src="images/values.jpg"
+                        alt="flower store"></div>
+                <div id="values-right-container" class="w-100">
+                    <h3 class="font-h3 font-regular letter-s1 text-capitalize">our values</h3>
+                    <div class="values-container d-flex justify-space-between align-center w-100">
+                        <div class="green-container bg-secondary pos-rel"><img class="pos-abs center"
+                                src="images/handshake.svg"></div>
+                        <p class="font-md w-100"><span class="font-medium">Customer Service:</span> We share your
+                            passion for
+                            prompt service.
+                            Our mission is to consistently exceed your expectations, ensuring every interaction with us
+                            is memorable.</p>
+                    </div>
+                    <div class="values-container d-flex justify-space-between align-center w-100">
+                        <div class="green-container bg-secondary pos-rel"><img class="pos-abs center"
+                                src="images/people.svg">
+                        </div>
+                        <p class="font-md w-100"><span class="font-medium">Community Spirit:</span>  TJ and I cherish
+                            our role within the community. Supporting our neighbors and sharing their special moments is
+                            the driving force behind what we do.</p>
+                    </div>
+                    <div class="values-container d-flex justify-space-between align-center w-100">
+                        <div class="green-container bg-secondary pos-rel"><img class="pos-abs center"
+                                src="images/hand.svg">
+                        </div>
+                        <p class="font-md w-100"><span class="font-medium">Emotional Connection:</span> We take pride in
+                            being
+                            there for you
+                            during life's highs
+                            and lows,
+                            delivering solace and celebration in every petal.</p>
+                    </div>
+                </div>
+            </div>
+            <div id="approach-main-container" class="d-flex justify-space-between align-center gap-10">
+                <div id="approach-left-container" class="w-100">
+                    <h3 class="font-h3 font-regular letter-s1 text-capitalize">our approach</h3>
+                    <div id="services-container" class="w-100">
+                        <p class="font-md color-primary">We're here to listen, understand your needs, and create floral
+                            designs that
+                            eloquently convey
+                            your sentiments.
+                        </p>
+                        <p class="font-md color-primary"> What do you need from me to create an arrangement?</p>
+                    </div>
+                    <div id="help-container" class="w-100">
+                        <p class="font-md font-semibold color-accent w-100">When we chat about your arrangement,
+                            it's really helpful to get a sense of:</p>
+                        <ul class="w-100">
+                            <li>Your preferred colors</li>
+                            <li>Your budget or price range (arrangements start at $40)</li>
+                            <li>Any specific flowers or arrangements you have in mind</li>
+                            <li>The chance to craft something uniquely beautiful, just for you</li>
+                        </ul>
+                    </div>
+                </div>
+                <div id="approach-right-container" class="values-img-container w-100"><img class="w-100 d-block"
+                        src="images/approach-flower.jpg">
+                </div>
+
+            </div>
+        </main>
+    </section>
+
+    <!-- 6 -->
+    <section id="cards-section">
+        <main class="w-100">
+            <div id="cards-main-container" class="d-flex justify-space-between gap-10">
+                <div class="card w-100 pos-rel cursor-pointer">
+                    <div class="card-content pos-abs w-100">
+                        <h5 class="font-h5 font-medium color-secondary text-capitalize">flowers & gifts</h5>
+                        <p class="font-lg font-medium color-secondary">Something for every occasion</p>
+                    </div>
+                    <img class="pos-abs arrow-down" src="images/arrow-down.svg" alt="arrow down">
+                </div>
+                <div class="card w-100 pos-rel cursor-pointer">
+                    <div class="card-content pos-abs w-100">
+                        <h5 class="font-h5 font-medium color-secondary text-capitalize">events & classes</h5>
+                        <p class="font-lg font-medium color-secondary">We’ve got a lot going on.</p>
+                    </div>
+                    <img class="pos-abs" src="images/arrow-down.svg" alt="arrow down">
+                </div>
+                <div class="card w-100 pos-rel cursor-pointer">
+                    <div class="card-content pos-abs w-100">
+                        <h5 class="font-h5 font-medium color-secondary">FAQs</h5>
+                        <p class="font-lg font-medium color-secondary">Frequently Asked Questions</p>
+                    </div>
+                    <img class="pos-abs" src="images/arrow-down.svg" alt="arrow down">
+                </div>
+            </div>
+            <div id="modal-container-a"
+                class="modal-container d-flex flex-column align-center bg-tertiary w-100 pos-rel d-none">
+                <main class="w-100">
+                    <h5 class="font-tertiary font-medium font-h5 color-accent text-uppercase text-center">Flowers &
+                        Gifts for
+                        Every Occasion
+                    </h5>
+                    <p class="font-secondary text-center w-100">For those special holidays, unforgettable events, or
+                        even
+                        those small acts
+                        of
+                        kindness, we've got
+                        just the right thing for every moment.</p>
+                    <div id="items-main-container" class="d-flex justify-space-between w-100">
+                        <div>
+                            <p class="font-secondary font-md text-capitalize">birthdays</p>
+                            <p class="font-secondary font-md text-capitalize">school dances</p>
+                            <p class="font-secondary font-md text-capitalize">anniversaries</p>
+                            <p class="font-secondary font-md text-capitalize">baby showers</p>
+                            <p class="font-secondary font-md text-capitalize">conferences</p>
+                            <p class="font-secondary font-md text-capitalize">congratulations</p>
+                            <p class="font-secondary font-md text-capitalize">friendship</p>
+                            <p class="font-secondary font-md text-capitalize">funerals</p>
+                            <p class="font-secondary font-md text-capitalize">get well</p>
+                            <p class="font-secondary font-md text-capitalize">just because</p>
+                        </div>
+                        <div id="items-right-container" class="w-100">
+                            <p class="font-secondary font-md text-capitalize">new baby</p>
+                            <p class="font-secondary font-md text-capitalize">religious ceremonies</p>
+                            <p class="font-secondary font-md text-capitalize">sympathy</p>
+                            <p class="font-secondary font-md text-capitalize">thank you</p>
+                            <p class="font-secondary font-md text-capitalize">weddings</p>
+                            <p class="font-secondary font-md text-capitalize">holidays</p>
+                            <p class="font-secondary font-md font-medium text-capitalize">Treasures for Every Milestone:
+                            </p>
+                            <p class="font-secondary font-md text-capitalize">Explore our gift store for home decor,
+                                seasonal items, candy bouquets, and more. Perfect
+                                for
+                                everyday surprises!</p>
+                        </div>
+                    </div>
+                    <div class="arrowUp-container pos-abs w-100"><img src="images/arrow-up.svg"></div>
+                </main>
+            </div>
+        </main>
+    </section>
+
+    <!-- 7 -->
+    <section id="maps-section" class="bg-primary">
+        <main>
+            <div id="maps-main-container" class="d-flex justify-space-between align-center gap-10">
+                <div id="maps-left-container" class="w-100 pos-rel"><img class="w-100 pos-abs" src="images/map.png"
+                        alt="luzetta’s map">
+                </div>
+                <div id="maps-right-container" class="w-100">
+                    <h3 class="font-h3 font-regular letter-s1 color-primary-two">Delivered Straight to You!</h3>
+                    <p class="font-md font-medium color-primary">We offer delivery to the following areas:</p>
+                    <ul>
+                        <li class="font-md text-capitalize color-primary">vale</li>
+                        <li class="font-md text-capitalize color-primary">willowcreek</li>
+                        <li class="font-md text-capitalize color-primary">brogan</li>
+                        <li class="font-md text-capitalize color-primary">harper</li>
+                        <li class="font-md text-capitalize color-primary">juntura</li>
+                        <li class="font-md text-capitalize color-primary">ontario</li>
+                        <li class="font-md text-capitalize color-primary">nyssa</li>
+                        <li class="font-md text-capitalize color-primary">adrian</li>
+                        <li class="font-md text-capitalize color-primary">fruitland</li>
+                        <li class="font-md text-capitalize color-primary">payette</li>
+                        <li class="font-md text-capitalize color-primary">new plymouth</li>
+                    </ul>
+                </div>
+            </div>
+        </main>
+    </section>
+
+    <!-- 8 -->
+    <section id="reviews-section">
+        <main class="pos-rel">
+            <div id="reviews-top-container" class="d-flex align-center justify-space-between">
+                <h2 class="font-h2 font-regular letter-s1 text-capitalize">reviews</h2>
+                <div class="common-btn bg-accent d-flex align-center justify-center w-100 cursor-pointer"><a
+                        class="font-md color-secondary text-none" href="#">Write a Review</a></div>
+            </div>
+            <div id="reviews-slider" class="d-flex justify-space-between gap-10 w-100">
+                <div class="reviews-container bg-primary w-100">
+                    <div class="stars-container d-flex justify-space-between w-100"><img src="images/star.svg"
+                            alt="star"><img src="images/star.svg" alt="star"><img src="images/star.svg" alt="star"><img
+                            src="images/star.svg" alt="star"><img src="images/star.svg" alt="star">
+                    </div>
+                    <p class="font-md color-primary w-100">“Luzetta's Flowers created a truly beautiful bouquet and
+                        they were able to
+                        deliver it the same
+                        day. I was so surprised and grateful. The customer service was personal and old school and
+                        fabulous! I am just so delighted by my experience with them today.
+                        I highly recommend Luzetta's Flowers.”</p>
+                    <p class="font-xlg color-primary text-capitalize">shannon c.</p>
+                </div>
+                <div class="reviews-container bg-primary w-100">
+                    <div class="stars-container d-flex justify-space-between w-100"><img src="images/star.svg"
+                            alt="star"><img src="images/star.svg" alt="star"><img src="images/star.svg" alt="star"><img
+                            src="images/star.svg" alt="star"><img src="images/star.svg" alt="star">
+                    </div>
+                    <p class="font-md color-primary w-100">“Great and fun place.<br>
+                        They have a little bit of everything.”</p>
+                    <p class="font-xlg color-primary text-capitalize">peter j.</p>
+                </div>
+                <div class="reviews-container bg-primary w-100">
+                    <div class="stars-container d-flex justify-space-between w-100"><img src="images/star.svg"
+                            alt="star"><img src="images/star.svg" alt="star"><img src="images/star.svg" alt="star"><img
+                            src="images/star.svg" alt="star"><img src="images/star.svg" alt="star">
+                    </div>
+                    <p class="font-md color-primary w-100">Called back right away, and totally saved the day. Made a
+                        last minute out of state order happen effortlessly. Just told her what the flowers were for, and
+                        it came out beautifully. Thank you very much for helping put a smile on the face of someone very
+                        special to me.</p>
+                    <p class="font-xlg color-primary text-capitalize">jing a.</p>
+                </div>
+            </div>
+            <div class="controls">
+                <img id="prev-arrow" class="pos-abs cursor-pointer" src="images/chevron-left.svg" alt="arrow left">
+                <img id="next-arrow" class="pos-abs cursor-pointer" src="images/chevron-right.svg" alt="arrow right">
+            </div>
+        </main>
+    </section>
+
+    <!-- 9 -->
+    <section id="contact-section" class="bg-primary">
+        <main>
+            <div id="contact-main-container" class="d-flex align-center justify-space-between gap-10">
+                <div id="contact-left-container">
+                    <h4 class="font-h4 font-regular letter-s1 color-primary-two">Let Us Create Something Special for
+                        You!</h4>
+                    <div
+                        class="contact-btn common-btn bg-accent d-flex align-center justify-center w-100 cursor-pointer">
+                        <a class="font-md color-secondary text-none text-capitalize" href="#">call us today</a>
+                    </div>
+                    <h4 class="font-h4 font-regular letter-s1 color-primary-two">Visit our Flower & Gift Shop</h4>
+                    <div id="timings-container" class="d-flex w-100">
+                        <div id="timings-left-container" class="w-100">
+                            <p class="font-md color-primary">168 A St E,<br>Vale, Oregon<br>97918</p>
+                            <div
+                                class="contact-btn common-btn bg-accent d-flex align-center justify-center w-100 cursor-pointer">
+                                <a class="font-md color-secondary text-none text-capitalize" href="#">get
+                                    directions</a>
+                            </div>
+                        </div>
+                        <div id="timings-right-container">
+                            <p class="font-sm font-semibold color-primary">Monday to Friday</p>
+                            <p>9:00am - 5:00pm</p>
+                            <p class="font-sm font-semibold color-primary">Saturday</p>
+                            <p>10:00am - 4:00pm</p>
+                            <p class="font-sm font-semibold color-primary">Sunday</p>
+                            <p>Closed</p>
+                        </div>
+                    </div>
+                </div>
+                <div id="contact-right-container" class="w-100"><img class="w-100" src="images/store-915x722.jpg"
+                        alt="luzetta's store"></div>
+            </div>
+        </main>
+    </section>
+
+    <!-- 10 -->
+    <section id="form-section" class="bg-secondary">
+        <main>
+            <div id="form-main-container" class="d-flex flex-column align-center">
+                <h5 class="font-tertiary font-h5 font-medium color-tertiary text-uppercase text-center">bring love to
+                    any occasion.<br>
+                    shop luzetta's flowers today!</h5>
+                <p class="font-md color-secondary text-center">Sign up for special events and deals</p>
+                <div id="form-container" class="d-flex justify-space-between gap-10 w-100"><input class="w-100"
+                        type="email" placeholder="Email">
+                    <input class="w-100" type="text" placeholder="First name">
+                    <input class="w-100" type="text" placeholder="Last name">
+                    <div id="subscribe-btn" class="d-flex justify-center align-center w-100 bg-accent cursor-pointer"><a
+                            class="font-tertiary font-md color-tertiary text-none text-uppercase" href="#">subscribe</a>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </section>
+
+    <!-- 11 -->
+    <section id="gallery-section">
+        <main>
+            <h4 class="font-secondary font-h4 font-light color-primary-two letter-s1">Flowers, Fun, and More - Find Us
+                on Social
+                Media</h4>
+            <div id="gallery-main-container" class="d-flex flex-column gap-10">
+                <div class="gallery-container d-flex flex-wrap gap-10">
+                    <div><img src="images/flower-item-1.png"></div>
+                    <div><img src="images/flower-item-2.png"></div>
+                    <div><img src="images/flower-item-3.png"></div>
+                    <div><img src="images/flower-item-4.png"></div>
+                    <div><img src="images/flower-item-5.png"></div>
+                    <div><img src="images/flower-item-6.png"></div>
+                </div>
+                <div class="gallery-container d-flex flex-wrap gap-10">
+                    <div><img src="images/flower-item-7.png"></div>
+                    <div><img src="images/flower-item-8.png"></div>
+                    <div><img src="images/flower-item-9.png"></div>
+                    <div><img src="images/flower-item-10.png"></div>
+                    <div><img src="images/flower-item-11.png"></div>
+                    <div><img src="images/flower-item-12.png"></div>
+                </div>
+            </div>
+            <div class="d-flex align-center justify-center gap-10">
+                <div id="load-btn" class="d-flex align-center justify-center w-100 cursor-pointer"><a
+                        class="color-secondary text-capitalize text-none" href="#">load more</a></div>
+                <div></div>
+                <div id="fb-btn" class="d-flex align-center w-100 cursor-pointer pos-rel"><img src="images/fb-icon.svg"
+                        alt=""><a class="color-secondary text-capitalize text-none" href="#">Follow on Facebook</a>
+                </div>
+                <div></div>
+            </div>
+        </main>
+    </section>
+
+    <!-- 12 -->
+    <section id="footer-section" class="bg-secondary">
+        <main>
+            <footer class="d-flex flex-column align-center"><img src="images/luzetta-white.svg" alt="luzetta logo">
+                <div id="footer-info-top" class="d-flex flex-column align-center">
+                    <p class="font-xlg font-semibold text-uppercase color-tertiary letter-s1">visit our flower & gift
+                        shop
+                    </p>
+                    <p class="font-secondary font-md color-secondary">168 A St E. <br>
+                        Vale, Oregon <br>
+                        97918</p>
+                    <p class="font-xlg font-semibold text-uppercase color-tertiary letter-s1 w-100 text-center">Let Us
+                        Create Something
+                        Special for You! Call Us Today</p>
+                    <a class="font-secondary font-md text-center color-secondary text-none"
+                        href="tel: 541-473-3651">541-473-3651 </a>
+                </div>
+                <img class="cursor-pointer" src="images/fb-icon.svg" alt="facebook icon">
+                <div id="footer-info-bottom" class="d-flex justify-space-between align-center w-100">
+                    <p class="font-secondary color-secondary">© Luzettas Flowers 2023</p>
+                    <p class="font-secondary color-secondary">Contact Us</p>
+                    <p class="font-secondary color-secondary">FAQs</p>
+                </div>
+            </footer>
+        </main>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
